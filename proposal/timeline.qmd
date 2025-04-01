@@ -1,30 +1,33 @@
 # Project plan
 
 ## Start-up phase
-<!--
-Covering the planning phase, this section should provide a relatively detailed plan of how work will start on the project. This section is important because projects need to get up and running quickly.
+
+The start-up phase will focus on establishing the foundation for collaboration and project management:  
+- **Collaboration Platform**: Set up a GitHub repository with contribution guidelines, issue templates, and a code of conduct (Target: Month 1).  
+- **Licensing**: Adopt an open-source license (e.g., MIT) to ensure community-driven development (Target: Month 1).  
+- **Reporting Framework**: Define milestones and deliverables with monthly progress updates to the ISC (Target: Month 1). 
 
 
- - [ ] Setting up collaboration platform inc. code for contributors etc.
- - [ ] Licence decisions
- - [ ] Reporting framework
--->
+## Technical Delivery  
+The technical delivery will be divided into three phases with clear timelines:  
 
+1. **Phase 1: Core DAP Implementation (Months 2–6)**  
+   - Develop the `rdap` package to implement Debug Adapter Protocol (DAP) for R.  
+   - Enable basic debugging features: breakpoints, stack traces, and variable inspection.  
+   - Test compatibility with VS Code, Vim, and Emacs.  
 
-## Technical delivery
-<!--
-Covering the actual delivery of the project this section should provide at least a high-level the implementation. 
+2. **Phase 2: Advanced Features & Optimization (Months 7–12)**  
+   - Add advanced debugging capabilities: conditional breakpoints, watch variables, and remote debugging.  
+   - Optimize performance for large datasets and complex workflows.  
+   - Conduct cross-platform testing across Windows, macOS, and Linux.  
 
-Including target dates is really important as you need to be committed and the ISC need to have a means of tracking delivery
--->
+3. **Phase 3: Community Handoff (Months 13–18)**  
+   - Write comprehensive documentation and tutorials for developers and IDE maintainers.  
+   - Engage the R community through workshops, webinars, and blog posts.  
+   - Transition maintenance to the R Consortium or a dedicated community group. 
 
-## Other aspects
-<!--
-Covering non-technical activities like on-going publicity, paper preparation, discussion groups etc. that might be required to facilitate successful delivery of the project.
+## Other Aspects  
 
- - [ ] Announcement post
- - [ ] Delivery blog post
- - [ ] Twitter
- - [ ] UseR!
- - [ ] ISC meetings
--->
+- **Publicity**: Announce the project via an R Consortium blog post and social media (Target: Month 1). Publish progress updates at key milestones.  
+- **Community Engagement**: Present at UseR! conferences and host discussion groups to gather feedback during development .  
+- **ISC Meetings**: Hold biweekly meetings with the ISC to ensure alignment with project goals and address challenges promptly .  

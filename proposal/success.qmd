@@ -3,20 +3,26 @@
 Projects should have a definition of done that is measurable, and a thorough understanding going in of what the risks are to delivery 
 -->
 
-## Definition of done
-<!-- 
-What does success look like? 
--->
+## Definition of Done  
+Success will be achieved when:  
+1. The `rdap` package is released with full Debug Adapter Protocol (DAP) support for R, including core features like breakpoints, stack traces, variable inspection, and remote debugging.  
+2. Compatibility is verified across major IDEs (VS Code, Vim, Emacs) and operating systems (Windows, macOS, Linux).  
+3. Comprehensive documentation and tutorials are published to enable adoption by developers and IDE maintainers.  
+4. The project is transitioned to the R Consortium or a community-driven maintenance group.  
 
-## Measuring success
-<!-- 
-How will we know when success is achieved, what markers can we use along the way 
--->
+## Measuring Success  
+Progress markers include:  
+- **Phase 1 Completion**: Core DAP implementation tested and functional in at least one IDE (Target: Month 6).  
+- **Phase 2 Completion**: Advanced debugging features implemented and optimized for performance (Target: Month 12).  
+- **Community Adoption**: At least three IDE integrations actively using the `rdap` package (Target: Month 18).  
+- **Engagement Metrics**: Positive feedback from workshops, webinars, and UseR! presentations; active GitHub contributions from the community.  
 
-## Future work
-<!-- 
-How could this be extended / developed in the future by yourself and/or the community in general?
--->
+## Future Work  
+Potential extensions include:  
+- Expanding `rdap` to support additional IDEs and editors beyond the initial targets.  
+- Adding features like graphical debugging interfaces or integration with cloud-based R environments.  
+- Collaborating with other language communities to improve cross-language debugging workflows in polyglot projects.  
+- Supporting remote debugging for distributed R workflows in HPC or cloud environments.  
 
 ## Key risks
 <!-- 

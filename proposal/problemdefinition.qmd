@@ -5,15 +5,27 @@ bibliography: references.bib
 # The Problem
 
 ```{=html}
-<!-- 
-Outlining the issue / weak point / problem to be solved by this proposal. This should be a compelling section that sets the reader up for the next section - the proposed solution!
 
-It is important to cover:
+R lacks standardized debugging interface support for the Debug Adapter Protocol (DAP), creating three key limitations:
 
- - [ ] What the problem is
- - [ ] Who it affects
- - [ ] Have there been previous attempts to resolve the problem
- - [ ] Why it should be tackled
--->
+1. **IDE fragmentation**: Developers outside RStudio face limited debugging capabilities, forced to choose between proprietary tools or basic terminal debugging [@wickham2016].
+2. **Toolchain duplication**: IDE maintainers must build custom R debugging implementations rather than leveraging a universal standard.
+3. **Feature stagnation**: Modern debugging features (visual stack traces, watch variables, remote debugging) remain inaccessible to most R users.
+
+This impacts 4 key groups:  
+- Non-RStudio IDE users (VS Code/Vim/Emacs)  
+- Cross-language developers  
+- Educators teaching R  
+- IDE extension maintainers  
+
+Previous efforts like RStudio's debugger demonstrate technical feasibility but lack standardization and cross-IDE support. Existing solutions remain either environment-specific or limited to basic `browser()`-based workflows.
+
+Implementing DAP support would:  
+✓ Democratize access to modern debugging tools  
+✓ Reduce redundant development efforts across IDEs  
+✓ Enable feature parity with Python/Julia/JavaScript ecosystems  
+✓ Facilitate multi-language workflows in shared IDEs  
+✓ Lower adoption barriers for new R users  
+
 ```
 An example in-text citation [@wickham2016].
